@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Playfair+Display:wght@900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    color: #9767A9;
+    background-color: #FFFFFF;
+    align-items: center;
+    font-size: 1.32vw;
+    position: fixed;
+}
+
+.logo{
+    width: 8.126vw;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.tabsBox{
+    width: 50%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemsBox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.linkItem{
+    text-decoration: none;
+    color:#9767A9;
+}
+
+.tips, .hairSchedule, .references, .products, .signIn, .contactUs{
+    list-style: none;
+}
+
+.tips:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.hairSchedule:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.references:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.products:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.signIn:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.contactUs:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.contactUs:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.tips{
+    width: 4.2vw;
+    text-align: center;
+}
+
+.hairSchedule{
+    width: 14.4vw;
+    text-align: center;
+}
+
+.references{
+    width: 8.5vw;
+    text-align: center;
+}
+
+.products{
+    width: 6.8vw;
+    text-align: center;
+}
+
+.signIn{
+    width: 8.9vw;
+    text-align: center;
+}
+
+.contactUs{
+    width: 6vw;
+    text-align: center;
+}
+
+.faceIcon, .instaIcon, .youtubeIcon{
+    width: 2.93vw;
+}
+
+.linkImage{
+    text-decoration: none;
+}
+
+.searchBox{
+    width: 15.59vw;
+    height: 6.27vh;
+    border: solid #9767A9;
+    border-radius: 50px;
+}
+
+.iconsBox{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchIcons{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.searchBox::placeholder{
+    color:#9767A9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    padding-left: 2.5vw;
+    background-image: url('./assets/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
