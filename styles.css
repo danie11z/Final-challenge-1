@@ -201,7 +201,7 @@ h1{
     font-size: 3.5vw;
     font-family: 'Playfair Display', serif;
     width: 50vw;
-    height: 40vh;
+    height: 42vh;
 }
 
 .secondText{
@@ -212,16 +212,21 @@ h1{
     height: 35vh;
 }
 
+.mobileSection{
+    display: none;
+}
+
 .firstSection, .secondSection{
     color: #FFFFFF;
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
 
     header{
         justify-content: space-between;
         position: initial;
         background-color: transparent;
+        height: 8.7vh;
     }
 
     .mobileMenu{
@@ -230,10 +235,6 @@ h1{
 
     .menu{
         width: 13vw;
-    }
-
-    .mobileMenu{
-        height: 10.65vh;
     }
 
     .logo{
@@ -253,26 +254,86 @@ h1{
     }
 
     .firstSection{
-        background-position: 35%;;
-        justify-content:flex-start;
+        background-position: 30%;
         align-items: flex-start;
     }
 
     .titleText{
         flex-direction: column;
-        width: 70%;
+        width: 80vw;
+        align-items: flex-start;
         justify-content: space-evenly;
-        align-items: space-evenly;
-        height: 72%;
+        height: 55vh;
     }
 
     h1{
-        font-size: 10vw;
-        width: 45vw;
+        font-size: 14vw;
+        width: 57vw;
     }
 
     .firstText{
-        font-size: 4vw;
-        width: 43.3vw;
+        width: 57vw;
+        font-size: 5.26vw;
     }
+
+    .secondSection{
+        flex-direction: column;
+    }
+
+    .stepsTitle{
+        font-size: 5.9vw;
+        height: 14vh;
+        width: 85vw;
+    }
+
+    .secondText{
+        width: 85vw;
+        font-size: 3vw;
+    }
+
+    .secondSection{
+        display: none;
+    }
+
+    .mobileSection{
+        display: flex;
+        background-color: #9767A9;
+        flex-direction: column;
+        color: #FFFFFF;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 60vh;
+    }
+
+    .stepsTitleTwo{
+        font-family: 'Playfair Display', serif;
+        width: 69.5vw;
+    }
+
+    .textContent{
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        justify-content: space-between;
+    }
+
+    .paragraphOne{
+        width: 69.5vw;
+    }
+
+    .paragraphTwo{
+        width: 69.5vw;
+    }
+
+    .paragraphThree{
+        width: 69.5vw;
+        height: 16vh;
+
+    }
+
+    .paragraphOne, .paragraphTwo, .paragraphThree{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+
 }
